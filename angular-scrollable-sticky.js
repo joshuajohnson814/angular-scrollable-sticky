@@ -3,9 +3,9 @@
 
   var module = angular.module('angular-scrollable-sticky', []);
 
-  module.directive('dbSticky', dbSticky);
+  module.directive('scrollableSticky', scrollableSticky);
 
-  function dbSticky($rootScope, $timeout, $window, $document, eventsConstants) {
+  function scrollableSticky($rootScope, $timeout, $window, $document, eventsConstants) {
     var directive = {
       link: link,
       restrict: 'A'
@@ -117,7 +117,7 @@
         var checkElement = elem;
 
         do {
-          if (checkElement.hasAttribute('db-scrollable')) {
+          if (checkElement.hasAttribute('scrollable')) {
             return checkElement;
           }
 
