@@ -1,0 +1,32 @@
+{
+  "name": "angular-scrollable-sticky",
+  "version": "0.0.1",
+  "homepage": "https://github.com/joshuajohnson814/angular-scrollable-sticky",
+  "authors": [
+    "Joshua Johnson <joshua.johnson.814@gmail.com>"
+  ],
+  "description": "ngSticky directive that works with scrollable divs and not just the body.",
+  "main": "angular-scrollable-sticky.js",
+  "dependencies": {
+    "angular": "^1.2.0"
+  },
+  "keywords": [
+    "angularjs",
+    "angular",
+    "sticky",
+    "fixed",
+    "position",
+    "angular sticky",
+    "scrollable divs",
+    "stick",
+    "layout"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
